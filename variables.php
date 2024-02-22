@@ -11,6 +11,6 @@ $x = "5" + "5";
 echo $x;
 
 //constants variable
-define('PI', 3.143); // only use capital letters for constants
+define('PI', 3.1422223); // only use capital letters for constants
 echo PI;
 ?>
