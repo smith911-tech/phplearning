@@ -11,7 +11,8 @@ class Car
     // properties / fields
     private $brand;
     private $color;
-    public $vehicleType = "car";
+    // we can set a value
+    // public $vehicleType = "car";
 
 
     //constructor 
@@ -29,6 +30,14 @@ class Car
     public function setBrand($brand)
     {
         return $this->brand = $brand;
+    }
+    public function getColor()
+    {
+        return $this->color;
+    }
+    public function setcolor($color)
+    {
+        return $this->color = $color;
     }
     
     //method 
